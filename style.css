@@ -1,0 +1,53 @@
+/* Reset some default styles */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/* Center the content vertically and horizontally */
+html, body {
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #f0f0f0;
+}
+
+.container {
+text-align: center;
+}
+
+h1 {
+font-family: Arial, sans-serif;
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+.loader-text {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin: 20px auto;
+  }
+  
+  .loader-text span {
+    opacity: 0;
+    animation: pulse-text 1.5s infinite;
+    font-size: 30px;
+  }
+  
+  .loader-text span:nth-child(2) {
+    animation-delay: 0.5s;
+  }
+  
+  .loader-text span:nth-child(3) {
+    animation-delay: 1s;
+  }
+  
+  @keyframes pulse-text {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  
