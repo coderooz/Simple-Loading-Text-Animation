@@ -3,7 +3,7 @@
 ![Simple Loading Text Animation](./image.png)
 
 
-This project demonstrates a simple page loading bar animation using CSS only. It includes a centered block with a loading text and a title.
+This project demonstrates a simple page loading animation using CSS only. It includes a centered block with a loading text and a title.
 
 ## Features
 
